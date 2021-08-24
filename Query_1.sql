@@ -31,3 +31,7 @@ IGNORE 1 ROWS
 ;
 
 SELECT * FROM creditcardmarketing;
+
+# At the end it was not possible to load data into the table via query
+# The 'Table Data Import Wizard' was used to load data into the table
+# 24 rows (0,13%) were lost during the process and they were ignored due to the low representativeness
